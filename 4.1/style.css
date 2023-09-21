@@ -52,3 +52,18 @@ a {
 
     text-decoration: none;
 }
+
+header{
+    height: 100vh;
+    width: 100vw;
+    background-image:url(./orange-justice-emote-hd.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  .fortnite{color: red;}  
+  .justice{color: rgb(0, 0, 0);}
+}
+.Fabio{width: 50vw;} 
+.Art{border-style: outset;
+    border-radius: 30px;
+border-color: rgb(2, 2, 2);}
