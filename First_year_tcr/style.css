@@ -3,11 +3,15 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 html {
   font-size: 62.5%;
 }
+
 body {
   font-family: "Goldman", cursive;
+  min-height: 200vh;
+  position: relative;
 }
 
 nav {
@@ -20,31 +24,90 @@ nav {
   margin: auto;
   background: #00a8c7;
   justify-content: space-between;
+  position: sticky;
+  top: 0;
 }
+
 nav ul {
   display: flex;
   align-items: center;
   list-style-type: none;
 }
+
 nav li {
   font-size: 2.5rem;
   padding: 0 4rem 0 4rem;
 }
+
 nav a {
   color: white;
   text-decoration: none;
 }
+
 nav img {
   width: 5vw;
 }
-.back{background-image: url(./img/background.jpeg);
+
+.back {
+  background-image: url(./img/background.jpeg);
   background-position: center;
   width: 100vw;
   height: 100vh;
   background-repeat: no-repeat;
   background-size: 1800px;
-  }
-.hacker{color: rgb(62, 136, 248);}
-.js{color: white;}
-footer{background-color: #00a8c7; color: white ;}
-.asd{background-color: black;}
+}
+
+.hacker {
+  color: rgb(62, 136, 248);
+}
+
+.js {
+  color: white;
+}
+
+footer {
+  background-color: #00a8c7;
+  color: white;
+  position: absolute;
+  bottom: 0px;
+  text-align: center;
+  width: 200vh;
+}
+
+.asd {
+  background-color: black;
+}
+
+.links {
+  float: left;
+  padding-top:200px;
+  margin-left: 300px;
+}
+
+.rechts2 {
+  float: right;
+  padding-top: 125px;
+}
+
+.imgrechts{float: right; width: 300px;
+padding-top: 150px; margin-right: 150px;}
+
+.rechts {
+  float: right;
+  padding-top: 150px;
+  margin-right: 150px;
+}
+
+h1 {
+  text-align: center;
+}
+
+img {
+  width: 300px;
+}
+
+p {
+  display: block;
+  width: 200px;
+font-size: medium;
+}
