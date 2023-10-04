@@ -139,6 +139,7 @@ li {
 .dropdown-content {
   display: none;
   position: absolute;
+  flex-direction: column;
   background-color: #ffffff;
   min-width: 160px;
   font-family: "Goldman", cursive;
@@ -155,6 +156,6 @@ li {
   font-family: "Goldman", cursive;
 }
 .dropdown:hover .dropdown-content {
-  display: block;
+  display: flex;
   font-family: "Goldman", cursive;
 }
