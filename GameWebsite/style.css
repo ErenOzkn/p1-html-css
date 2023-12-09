@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 110vh;
+    width: 100vw;
+    background-image: url(./GameWebsite/Back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    color: aliceblue;
+    display: flex;
+    border-style: solid;
+    position: absolute;
+    flex-direction: column;
+    font-size: large;
+    height: 110vh;
+    margin: 0px;
+    font-family: 'Playfair Display', serif;
+    width: 20%;
+    left: 0;
+    align-items: center;
+}
+
+nav ul {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px
+}
+
+li {
+    list-style-type: none;
+}
+
+.contact {
+    padding-top: 35vh;
+}
+
+main {
+    width: 70vw;
+    margin-left: auto;
+}
+
+.Games {}
+
+.lol {
+    position: absolute;
+    max-height: 20vh;
+    max-width: 20vw;
+    margin-top: 10vh;
+    border-radius: 3%;
+    border-color: azure;
+    border-style: ridge;
+}
+
+.spiderman {
+    position: absolute;
+    max-height: 20vh;
+    max-width: 20vw;
+    margin-left: 50vh;
+    margin-top: 10vh;
+    border-radius: 3%;
+    border-color: azure;
+    border-style: ridge;
+}
+
+.rdr2 {
+    position: absolute;
+    max-height: 30vh;
+    max-width: 30vw;
+    margin-top: 50vh;
+    margin-left: 5vh;
+    border-radius: 3%;
+    border-color: azure;
+    border-style: ridge;
+}
+
+.destiny {
+    position: absolute;
+    max-height: 20vh;
+    max-width: 20vw;
+    margin-left: 95vh;
+    margin-top: 10vh;
+    border-radius: 10px;
+    border-radius: 3%;
+    border-color: azure;
+    border-style: ridge;
+}
+
+.gow {
+    position: absolute;
+    max-height: 30vh;
+    max-width: 30vw;
+    margin-top: 50vh;
+    margin-left: 50vh;
+    border-radius: 3%;
+    border-color: azure;
+    border-style: ridge;
+}
+
+.bg3 {
+    position: absolute;
+    max-height: 30vh;
+    max-width: 30vw;
+    margin-top: 50vh;
+    margin-left: 100vh;
+    border-radius: 10px;
+    border-radius: 3%;
+    border-color: azure;
+    border-style: ridge;
+}
+
+.support {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Playfair Display', serif;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 15vh;
+    position: absolute;
+}
+
+.form {
+    color: white;
+    margin-top: 60vh;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+
+.login {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10vh;
+    position: absolute;
+}
+
+.register {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 70vh;
+    position: absolute;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.lux {
+    max-width: 20vw;
+    max-height: 20vh;
+    border-color: azure;
+    border-style: ridge;
+    border-radius: 5%;
+}
+
+.peter {
+    max-width: 20vw;
+    max-height: 20vh;
+    margin-top: 5vh;
+    border-color: azure;
+    border-style: ridge;
+    border-radius: 5%;
+}
+
+.arthur {
+    max-width: 20vw;
+    max-height: 20vh;
+    margin-top: 5vh;
+    border-color: azure;
+    border-style: ridge;
+    border-radius: 5%;
+}
+
+.reviewtext {
+    color: white;
+
+}
+
+.characters {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5vh;
+
+}
+
+.homepage {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    height: 100%;
+    width: 80%;
+    align-items: center;
+}
+
+.homeimg1 {
+    position: absolute;
+    max-height: 30vh;
+    max-width: 30vw;
+    border-radius: 3%;
+    border-color: azure;
+    border-style: ridge;
+    display: flex;
+    flex-direction: row;
+    margin-right: 50vh;
+}
+
+.homeimg2 {
+    position: absolute;
+    max-height: 30vh;
+    max-width: 30vw;
+    border-radius: 3%;
+    border-color: azure;
+    border-style: ridge;
+    display: flex;
+    flex-direction: row;
+    margin-left: 80vh;
+}
+
+.hometext {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20vh;
+}
+
+.homeimg {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50vh;
+    align-items: center;
+
+}
+
+.maintext {
+margin-left: 7vh;
+}
